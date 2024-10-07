@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+/*SMALL-MOBILE*/
+@media (min-width: 300px) and (max-width: 359px){
+   .col-xxs-6{ width:50% !important;}
+   .add-avatarblock a { width: 120px; height: 120px; margin: 0.4em;}
+
+}/*SMALL-MOBILE*/
+
+
+
+
+/*MOBILES*/
+@media (min-width: 360px) and (max-width: 390px){
+   .signup-wrapper {     height: 100vh; position: relative; transform: inherit; left: inherit; top: inherit;}
+     .signup-wrapper .sgu-header img { height: 2.6rem; margin-top: 1em;}
+     .col-xs-6{ flex: 0 0 50%; max-width: 50%;}
+     .col-xs-3{ flex: 0 0 25%; max-width: 25%;}
+     .col-xs-4{ flex: 0 0 33.333333%; max-width: 33.333333%; padding-right: 5px !important; padding-left: 5px !important;}
+     .pop-body { padding-top: 20px; width: 100%; }
+     .pop-body h3{ text-align: center;}
+     .pop-header { top: 0; left: 0; right: 0; padding: 10px 20px;}
+      
+
+  }/*MOBILES*/
+
+
+  /*PHABLETS*/
+@media (min-width: 391px) and (max-width: 480px){
+   
+   .signup-wrapper .sgu-header img { height: 2.6rem; margin-top: 1em;}
+
+   .col-xs-6{ flex: 0 0 50%; max-width: 50%;}
+   .col-xs-3{ flex: 0 0 25%; max-width: 25%;}
+   .col-xs-4{ flex: 0 0 33.333333%; max-width: 33.333333%; padding-right: 5px !important; padding-left: 5px !important;}
+   .pop-body { padding-top: 15px; width: 100%; }
+   .pop-body h3{ text-align: center;}
+   .pop-body { padding-top: 20px; width: 100%; height: calc(100vh - 18px);}
+   
+  }/*PHABLETS*/
+
+
+  /*ALL-MOBILES*/
+  @media (min-width: 300px) and (max-width: 480px){
+   .pop-header{ padding:10px 10px;}
+   .pop-header .pop-btn { padding: 0.2em 0em; background-color: transparent; text-transform: initial; font-size: 1.2em;}
+   .pop-body h3{font-size: 1.35rem; font-weight: bold; letter-spacing: 0.05em;}
+   .pop-container{ padding-top:15px;}
+   .pop-header {top: 20px;}
+   .pop-body { padding-top: 20px; width: 100%; }
+   
+   
+ 
+  }/*ALL-MOBILES*/
+
+   /*TABLETS*/
+@media (min-width: 481px) and (max-width: 767px){
+   .signup-wrapper .sgu-header img { height: 3rem;}
+   .col-xs-6{ flex: 0 0 50%; max-width: 50%;}
+   .col-xs-3{ flex: 0 0 25%; max-width: 25%;}
+   .col-xs-4{ flex: 0 0 33.333333%; max-width: 33.333333%; padding-right: 5px !important; padding-left: 5px !important;}
+   .pop-body { padding-top: 1rem; }
+   .avatar-block .avatar { padding-top: 10px;}
+   .pop-body h3 { text-align: center;}
+}/*TABLETS*/
+
+   /*TABLETS-big*/
+   @media (min-width: 768px) and (max-width: 1000px){
+      .pop-body { padding-top: 1rem;}
+      .pop-body h3 { text-align: center; }
+      .mob-display{ display: block;}
+ 
+}/*TABLETS*/
+
+   /*COMMON*/
+   @media (min-width: 310px) and (max-width: 1000px){
+
+      .pop-header .back-btn{  display: block;}
+      .pop-header .brand-logo{  display: none;}
+      .pop-header .pop-btn { padding: 0.2em 0em; background-color: transparent; text-transform: initial; font-size: 1.2em;}
+      .desk-display{ display: none;}
+      .profile-cont{ flex-direction: column; margin-top: 2em;}
+   .profile-cont .sgu-body{ flex: inherit; margin-right: inherit; order: 2; width: 100%;}
+   .profile-cont .avatar{ flex: inherit; order: 1; width: 35%; margin-bottom: 2em;}
+   .adprofile-block{ margin:inherit}
+   .pop-container{ 
+      background: -moz-linear-gradient(-45deg,  #0b0d14 8%, #2e313e 50%, #0b0d14 98%); 
+      background: -webkit-linear-gradient(-45deg,  #0b0d14 8%, #2e313e 50%, #0b0d14 98%); 
+      background: linear-gradient(135deg,  #0b0d14 8%, #2e313e 50%, #0b0d14 98%); 
+      }
+      .edit-prof .sub-heading{ display: none;}
+      .edit-prof{ margin-top:7em;}
+      .dft-color{background-color:transparent !important;}
+
+}/*COMMON*/
+
+@media (min-width: 320px) and (max-width: 767px){
+   .signup-wrapper { height: 100vh; position: relative; transform: inherit; left: inherit; top: inherit; margin: 0 auto;}
+   .signup-wrapper .sgu-footer{ position: absolute; left: 20px; bottom: 20px; right:20px; margin-top:inherit; }
+   .mob-display{ display: block;}
+   .profile-cont{ flex-direction: column; margin-top: 2em;}
+   .profile-cont .sgu-body{ flex: inherit; margin-right: inherit; order: 2; width: 100%;}
+   .profile-cont .avatar{ flex: inherit; order: 1; width: 35%; margin-bottom: 2em;}
+   footer .footer_links{ flex-direction: column;}
+   footer .footer_links li{ margin-right:0; padding:5px; font-size: 18px;}
+   footer .copy_rights{ text-align: center;}
+   .envoi-container { padding: 0 15px; }
+   .big_title i{ font-size: 5em;}
+   .big_title p { font-size: 2.4em;}
+   footer .button_links{ justify-content: center;}
+   footer .button_titles{ text-align: center;}
+
+
+}/*ALL MOBILES=TABS*/
+
+
+
+@media screen and (min-width: 600px) {
+
+}
